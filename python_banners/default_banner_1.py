@@ -1,0 +1,12 @@
+from rich.console import Console
+console = Console()
+
+console.print("""
+██╗  ██╗ █████╗  ██████╗██╗  ██╗███████╗██████╗
+██║  ██║██╔══██╗██╔════╝██║ ██╔╝██╔════╝██╔══██╗
+███████║███████║██║     █████╔╝ █████╗  ██████╔╝
+██╔══██║██╔══██║██║     ██╔═██╗ ██╔══╝  ██╔══██╗
+██║  ██║██║  ██║╚██████╗██║  ██╗███████╗██║  ██║
+""", style="bold green", justify="center")
+
+console.print(">> WELCOME HACKER <<", style="bold red", justify="center")
