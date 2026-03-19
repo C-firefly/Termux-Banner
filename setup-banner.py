@@ -84,8 +84,12 @@ def install_packages():
 
 def activate_banner():
 
-        block = "\n# TERMUX BANNER\nif [ -f ~/.my_bin/Banner/termux-banner.py ]; then
-        python ~/.my_bin/Banner/termux-banner.py\nfi\n"
+        block = """
+        # TERMUX BANNER
+        if [ -f ~/.my_bin/Banner/termux-banner.py ]; then
+        python ~/.my_bin/Banner/termux-banner.py
+        fi
+        """
 
     for rc in [".bashrc", ".zprofile"]:
 
